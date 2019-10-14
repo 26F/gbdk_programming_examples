@@ -159,7 +159,6 @@ void main() {
   UBYTE y = 0;
 
   disable_interrupts();
-  DISPLAY_OFF;
 
   set_bkg_palette(0, 2, pal);
   set_bkg_data(0, 8, bgdat);
