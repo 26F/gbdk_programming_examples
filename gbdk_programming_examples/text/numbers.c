@@ -74,7 +74,6 @@ void main() {
 	UINT8 * digitp = NULL;
 	UINT8 c;
 	
-	DISPLAY_OFF;
 	disable_interrupts();
 
 	set_bkg_data(0, 10, base10);
